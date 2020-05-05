@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <main>
-        <label for="username">Användarnamn</label>
-        <input type="text" id="username">
-        <label for="pass">Lösenord</label>
-        <input type="password" id="pass">
+    <main class="wrapper">
+        <section class="form-inputs">
+            <label for="username">Användarnamn</label>
+            <input type="text" id="username" class="form-input">
+        </section>
+        <section class="form-inputs">
+            <label for="pass">Lösenord</label>
+            <input type="password" id="pass" class="form-input">
+        </section>
 
-        <button id="submit">Logga in</button>
+        <button id="submit" class="form-button">Logga in</button>
     </main>
 
     <script src="js/client.js"></script>

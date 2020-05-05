@@ -28,6 +28,29 @@ app.post('/api/login', (req, res) => {
     res.send(JSON.stringify(resObj));
 });
 
+app.get('/api/isloggedin', (req, res) => {
+    let cookies = req.cookies;
+
+    let resObj = {
+        isLoggedIn: false
+    }
+
+    if (cookies && cookies.loggedIn === 'true') {
+        resObj.isLoggedIn = true;
+    }
+
+    res.send(JSON.stringify(resObj));
+});
+
+app.get('/api/logout', (req, res) => {
+    let resObj = {
+        success: true
+    }
+
+    res.clearCookie('loggedIn');
+    res.send(JSON.stringify(resObj));
+});
+
 
 app.listen(8000, () => {
     console.log('Server is running');
