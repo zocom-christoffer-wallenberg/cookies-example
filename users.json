@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "username": "chris",
+      "password": "pwd123",
+      "cookieID": "d1faf3ca-5c72-40ea-a19b-a0e7cd80ad9f",
+      "role": "admin"
+    },
+    {
+      "username": "Alice",
+      "password": "password",
+      "cookieID": "7bc0f8ba-0a85-4a3f-8ec1-01ebdc240045",
+      "role": "user"
+    }
+  ]
+}

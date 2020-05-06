@@ -35,6 +35,8 @@ buttonElem.addEventListener('click', async () => {
 
     if (loggedIn.success) {
         location.href = 'http://localhost:8000/loggedin.html'
+    } else {
+        document.querySelector('#errorMessage').classList.toggle('hide');
     }
 });
 
