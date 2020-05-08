@@ -2,14 +2,38 @@
   "users": [
     {
       "username": "chris",
-      "password": "pwd123",
-      "cookieID": "d1faf3ca-5c72-40ea-a19b-a0e7cd80ad9f",
+      "password": "$2b$10$IZcDhHAo82kIlXQey.S8T.ytgffHSwxB.bMi4ERxjzDAAHaGXbtr.",
+      "cookieID": "e71966e6-268a-4621-bdf7-9ad3046c80ce",
       "role": "admin"
     },
     {
       "username": "Alice",
       "password": "password",
       "cookieID": "7bc0f8ba-0a85-4a3f-8ec1-01ebdc240045",
+      "role": "user"
+    },
+    {
+      "username": "awesome",
+      "password": "$2b$10$d20xhv660m0jGnFqivGDUu3XImpDNWwV6I7v6PLkJmkc4MypYWfa2",
+      "cookieID": "c9dcfced-780c-456f-9862-da635c0d0aa1",
+      "role": "user"
+    },
+    {
+      "username": "moreAwesome",
+      "password": "$2b$10$4leXy8ZlAHyQcmc29JYsheQxoKYn4rYM/IEYOP0IlgRgdZJRTCxiu",
+      "cookieID": "907bb491-1b4f-417b-8942-e247cb0a3974",
+      "role": "user"
+    },
+    {
+      "username": "evenmoreawesome",
+      "password": "$2b$10$eQOsjp0YG8QkqRskEZLu9eeQd7UE6eExyrzCLB2ESXZ1LfOZRwITe",
+      "cookieID": "da3a367d-0efa-4f4d-96d7-a4c92ed97896",
+      "role": "user"
+    },
+    {
+      "username": "test",
+      "password": "$2b$10$mFxmWZiiLZY.HWP7O4uMJOfJhnVBvmag81Hn3Xjgwt35KCc8QkSqu",
+      "cookieID": "121869d3-e535-4b03-bb76-bdaf850ed1cd",
       "role": "user"
     }
   ]
