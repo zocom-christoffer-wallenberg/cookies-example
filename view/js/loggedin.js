@@ -1,7 +1,7 @@
 const buttonElem = document.querySelector('#logout');
 
 async function isLoggedIn() {
-    const url = 'http://localhost:8000/api/isloggedin';
+    const url = 'http://localhost:8000/api/auth/isloggedin';
 
     const response = await fetch(url, { method: 'GET' });
     const data = await response.json();
@@ -12,7 +12,7 @@ async function isLoggedIn() {
 }
 
 async function logout() {
-    const url = 'http://localhost:8000/api/logout';
+    const url = 'http://localhost:8000/api/auth/logout';
 
     const response = await fetch(url, { method: 'GET' });
     const data = await response.json();

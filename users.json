@@ -3,7 +3,7 @@
     {
       "username": "chris",
       "password": "$2b$10$IZcDhHAo82kIlXQey.S8T.ytgffHSwxB.bMi4ERxjzDAAHaGXbtr.",
-      "cookieID": "e71966e6-268a-4621-bdf7-9ad3046c80ce",
+      "cookieID": "aad82aaa-2566-4db1-baba-2990c87a10a2",
       "role": "admin"
     },
     {
@@ -28,12 +28,6 @@
       "username": "evenmoreawesome",
       "password": "$2b$10$eQOsjp0YG8QkqRskEZLu9eeQd7UE6eExyrzCLB2ESXZ1LfOZRwITe",
       "cookieID": "da3a367d-0efa-4f4d-96d7-a4c92ed97896",
-      "role": "user"
-    },
-    {
-      "username": "test",
-      "password": "$2b$10$mFxmWZiiLZY.HWP7O4uMJOfJhnVBvmag81Hn3Xjgwt35KCc8QkSqu",
-      "cookieID": "121869d3-e535-4b03-bb76-bdaf850ed1cd",
       "role": "user"
     }
   ]

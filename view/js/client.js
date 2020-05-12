@@ -4,7 +4,7 @@ const inputPass = document.querySelector('#pass');
 
 
 async function login(username, password) {
-    const url = 'http://localhost:8000/api/login';
+    const url = 'http://localhost:8000/api/auth/login';
     const obj = {
         username: username,
         password: password
@@ -17,7 +17,7 @@ async function login(username, password) {
 }
 
 async function isLoggedIn() {
-    const url = 'http://localhost:8000/api/isloggedin';
+    const url = 'http://localhost:8000/api/auth/isloggedin';
 
     const response = await fetch(url, { method: 'GET' });
     const data = await response.json();
